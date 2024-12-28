@@ -1,7 +1,7 @@
 # Compile
 
 - Download the repo and extract
-- 
+
 - Open the Arduino IDE.
 
 - Navigate to the directory main.cpp and open
