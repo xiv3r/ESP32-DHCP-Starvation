@@ -1,7 +1,10 @@
 # Compile
+
+- Download the repo and extract
+- 
 - Open the Arduino IDE.
 
-- Copy and paste the main.cpp into a new sketch.
+- Navigate to the directory main.cpp and open
 
 - Select your board and port under Tools.
 
